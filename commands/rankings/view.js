@@ -42,11 +42,11 @@ module.exports = class ViewCommand extends Command {
 			})
 			.catch(err => {
 				console.log(err);
-				return message.say("Couldn't fetch your ranking!");
+				return message.say("Couldn't fetch your ranking! Are you sure you have made a ranking?");
 			});
 
 		if (!ranking) {
-			return await message.say("Couldn't fetch your ranking!");
+			return await message.say("Couldn't fetch your ranking! Are you sure you have made a ranking?");
 		}
 
 		const divide = ranking.length % 3 === 0 ? ranking.length / 3 : Math.ceil(ranking.length / 3);

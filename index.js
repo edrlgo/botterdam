@@ -15,13 +15,18 @@ const client = new Commando.Client({
     ],
     disableEveryone: true,
     unknownCommandResponse: false,
-    commandPrefix: '%%'
+    commandPrefix: '!!'
 });
 
 client.registry
     .registerDefaultTypes()
     .registerDefaultGroups()
-    .registerDefaultCommands()
+    .registerDefaultCommands({
+        unknownCommand: false,
+        commandState: false,
+        eval: true,
+        ping: true
+    })
     .registerGroups([
         ['jury', 'Jury commands'],
         ['rankings', 'Ranking commands']
