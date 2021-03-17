@@ -35,7 +35,7 @@ module.exports = class ViewCommand extends Command {
 		const userId = message.author.id;
 		let ranking;
 
-		await fetch(`${process.env.ENDPOINT}/ranking/${userId}/xx2021`)
+		await fetch(`${process.env.ENDPOINT}/ranking/${userId}/2021`)
 			.then(res => res.json())
 			.then(result => {
 				if (!result) return;
