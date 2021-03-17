@@ -1,6 +1,8 @@
 const { Command } = require('discord.js-commando');
 const { Canvas, resolveImage, rgba } = require('canvas-constructor');
 const fetch = require('node-fetch');
+const { registerFont } = require('canvas');
+registerFont('./fonts/Metropolis-Regular.otf', {family: 'Metropolis'});
 const countries = require('../../countries.json');
 const dotenv = require('dotenv');
 dotenv.config();

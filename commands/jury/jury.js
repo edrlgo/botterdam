@@ -1,5 +1,9 @@
 const { Canvas, resolveImage } = require('canvas-constructor');
 const { Command } = require('discord.js-commando');
+const { registerFont } = require('canvas');
+registerFont('./fonts/Metropolis-Regular.otf', {family: 'Metropolis'});
+registerFont('./fonts/Metropolis-Bold.otf', {family: 'Metropolis'});
+registerFont('./fonts/Metropolis-Light.otf', {family: 'Metropolis'});
 const fetch = require('node-fetch');
 const countries = require('../../countries.json');
 
