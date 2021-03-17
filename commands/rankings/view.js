@@ -14,8 +14,6 @@ module.exports = class ViewCommand extends Command {
 			aliases: [],
 			group: 'rankings',
 			memberName: 'rankings',
-			ownerOnly: true,
-			hidden: true,
 			description: 'View.'
 		});
 	}
@@ -30,6 +28,7 @@ module.exports = class ViewCommand extends Command {
 	}
 
     async run(message) {
+      console.log('command launched');
 		const msg = await message.say(`*Generating image for **${message.author.tag}**, please wait...*`);
 
 		const userId = message.author.id;
@@ -54,7 +53,8 @@ module.exports = class ViewCommand extends Command {
 		const divide = ranking.length % 3 === 0 ? ranking.length / 3 : Math.ceil(ranking.length / 3);
 		let [column, row] = [0, 0];
 
-		let background = await resolveImage('./img/ranking/venue2021.jpg')
+    console.log('generating img');
+		let background = await resolveImage('./img/ranking/venue2021.jpg');
 		let canvas = new Canvas(1280, 720)
 						.printImage(background, 0, 0, 1280, 720)
 						.setColor('#FFFFFF')
@@ -62,6 +62,7 @@ module.exports = class ViewCommand extends Command {
 						.printText(`Ranking of ${message.author.tag}`, 32, 64);
 		
 		const [boxWidth, boxHeight] = [384, 32];
+    console.log('box loop start');
 
 		for (const rank of ranking) {
 			if (row >= divide) {
@@ -70,10 +71,13 @@ module.exports = class ViewCommand extends Command {
 			}
 
 			const country = countries.find(x => x.code === rank.code).name;
+      console.log('country name found');
 
 			const [xPos, yPos] = [32 + (column * (boxWidth + 16)), 109 + (row * (boxHeight + 8))];
+      console.log('box position made');
 
 			const flag = await this.getCountryFlag(rank.code);
+      console.log('country flag found');
 
 			canvas.setColor(rgba(0, 32, 96, 0.85))
 				.printRectangle(xPos, yPos, boxWidth, boxHeight)
@@ -82,11 +86,14 @@ module.exports = class ViewCommand extends Command {
 				.printText(`${rank.position < 10 ? `0${rank.position}` : rank.position}`, xPos + 4, yPos + 24)
 				.printImage(flag, xPos + 48, yPos - 8, 48, 48)
 				.printText(country, xPos + 100, yPos + 24, 270);
+      console.log('box made');
 			
 			row++;
 		}
+    console.log('box loop end');
 
 		const image = canvas.toBuffer();
+    console.log('it worked here')
 
 		await message.say({
 			files: [
