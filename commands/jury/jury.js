@@ -1,9 +1,9 @@
 const { Canvas, resolveImage } = require('canvas-constructor');
 const { Command } = require('discord.js-commando');
 const { registerFont } = require('canvas');
-registerFont('./fonts/Metropolis-Regular.otf', {family: 'Metropolis'});
-registerFont('./fonts/Metropolis-Bold.otf', {family: 'Metropolis'});
-registerFont('./fonts/Metropolis-Light.otf', {family: 'Metropolis'});
+registerFont('./fonts/Metropolis-Regular.otf', { family: 'Metropolis', weight: 'normal', style: 'normal' });
+registerFont('./fonts/Metropolis-Bold.otf', { family: 'Metropolis', weight: 'bold', style: 'normal' });
+registerFont('./fonts/Metropolis-Light.otf', {family: 'Metropolis', weight: 'lighter', style: 'normal' });
 const fetch = require('node-fetch');
 const countries = require('../../countries.json');
 
@@ -75,7 +75,7 @@ module.exports = class JuryCommand extends Command {
 
 		let songTitle, artist;
 
-		await fetch(`${process.env.ENDPOINT}/entry/xx2021/${code}`)
+		await fetch(`${process.env.ENDPOINT}/entry/2021/${code}`)
 			.then(res => res.json())
 			.then(result => {
 				if (result) {
@@ -104,7 +104,7 @@ module.exports = class JuryCommand extends Command {
 			.setTextFont('bold 36pt Metropolis')
 			.printText(countryName, 1133, 140, 380)
 			.printText(artist, 1133, 245)
-			.setTextFont('light 36pt Metropolis')
+			.setTextFont('lighter 36pt Metropolis')
 			.printText(songTitle, 1133, 307)
 			.setTextFont('bold 36pt Metropolis')
 			.setTextAlign('center')
