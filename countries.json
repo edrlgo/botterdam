@@ -1,0 +1,544 @@
+[
+    {
+        "flagColors": [
+            "#004b87",
+            "#ffcd00"
+        ],
+        "_id": "5e65344f4c03772b0cb26028",
+        "name": "Sweden",
+        "code": "se",
+        "iso3": "swe"
+    },
+    {
+        "flagColors": [
+            "#da291c",
+            "#000000"
+        ],
+        "_id": "5e6ab817bf8a7240d005275b",
+        "name": "Albania",
+        "code": "al",
+        "iso3": "alb"
+    },
+    {
+        "flagColors": [
+            "#00008b",
+            "#ff0000",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d005275e",
+        "name": "Australia",
+        "code": "au",
+        "iso3": "aus"
+    },
+    {
+        "flagColors": [
+            "#00b5e2",
+            "#ef3340",
+            "#509e2f"
+        ],
+        "_id": "5e6ab817bf8a7240d0052760",
+        "name": "Azerbaijan",
+        "code": "az",
+        "iso3": "aze"
+    },
+    {
+        "flagColors": [
+            "#0038b8",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052772",
+        "name": "Israel",
+        "code": "il",
+        "iso3": "isr"
+    },
+    {
+        "flagColors": [
+            "#ce1720",
+            "#007c30",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052761",
+        "name": "Belarus",
+        "code": "by",
+        "iso3": "blr"
+    },
+    {
+        "flagColors": [
+            "#aa151b",
+            "#f1bf00"
+        ],
+        "_id": "5e6ab817bf8a7240d0052788",
+        "id": 18,
+        "name": "Spain",
+        "code": "es",
+        "iso3": "esp"
+    },
+    {
+        "flagColors": [
+            "#000000",
+            "#dd0000",
+            "#ffce00"
+        ],
+        "_id": "5e6ab817bf8a7240d005276d",
+        "name": "Germany",
+        "code": "de",
+        "iso3": "deu"
+    },
+    {
+        "flagColors": [
+            "#00247d",
+            "#ffffff",
+            "#cf142b"
+        ],
+        "_id": "5e6ab817bf8a7240d005278c",
+        "name": "United Kingdom",
+        "code": "gb",
+        "iso3": "gbr"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#5eb6e4"
+        ],
+        "_id": "5e6ab817bf8a7240d0052783",
+        "name": "San Marino",
+        "code": "sm",
+        "iso3": "smr"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005278d",
+        "name": "Yugoslavia",
+        "code": "yu",
+        "iso3": "yug"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d0052763",
+        "name": "Bosnia and Herzegovina",
+        "code": "ba",
+        "iso3": "bih"
+    },
+    {
+        "flagColors": [
+            "#ff0000",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d005276c",
+        "name": "Georgia",
+        "code": "ge",
+        "iso3": "geo"
+    },
+    {
+        "flagColors": [
+            "#c6363c",
+            "#0c4076",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052784",
+        "name": "Serbia",
+        "code": "rs",
+        "iso3": "srb"
+    },
+    {
+        "flagColors": [
+            "#002b7f",
+            "#fcd116",
+            "#ce1126"
+        ],
+        "_id": "5e6ab817bf8a7240d0052781",
+        "name": "Romania",
+        "code": "ro",
+        "iso3": "rou"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#005da4",
+            "#ed1c24"
+        ],
+        "_id": "5e6ab817bf8a7240d0052787",
+        "name": "Slovenia",
+        "code": "si",
+        "iso3": "svn"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005278a",
+        "name": "Turkey",
+        "code": "tr",
+        "iso3": "tur"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#0033a0",
+            "#da291c"
+        ],
+        "_id": "5e6ab817bf8a7240d0052782",
+        "name": "Russia",
+        "code": "ru",
+        "iso3": "rus"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#00966e",
+            "#d62612"
+        ],
+        "_id": "5e6ab817bf8a7240d0052764",
+        "name": "Bulgaria",
+        "code": "bg",
+        "iso3": "bgr"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#d57800",
+            "#4e5b30"
+        ],
+        "_id": "5e6ab817bf8a7240d0052766",
+        "name": "Cyprus",
+        "code": "cy",
+        "iso3": "cyp"
+    },
+    {
+        "flagColors": [
+            "#0d5eaf",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d005276e",
+        "name": "Greece",
+        "code": "gr",
+        "iso3": "grc"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005276f",
+        "name": "Hungary",
+        "code": "hu",
+        "iso3": "hun"
+    },
+    {
+        "flagColors": [
+            "#cf142b",
+            "#cccccc",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052777",
+        "name": "Malta",
+        "code": "mt",
+        "iso3": "mlt"
+    },
+    {
+        "flagColors": [
+            "#006600",
+            "#ff0000",
+            "#ffff00"
+        ],
+        "_id": "5e6ab817bf8a7240d0052780",
+        "name": "Portugal",
+        "code": "pt",
+        "iso3": "prt"
+    },
+    {
+        "flagColors": [
+            "#005bbb",
+            "#ffd500"
+        ],
+        "_id": "5e6ab817bf8a7240d005278b",
+        "name": "Ukraine",
+        "code": "ua",
+        "iso3": "ukr"
+    },
+    {
+        "flagColors": [
+            "#d52b1e",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052789",
+        "name": "Switzerland",
+        "code": "ch",
+        "iso3": "che"
+    },
+    {
+        "flagColors": [
+            "#ed2939",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d005275f",
+        "name": "Austria",
+        "code": "at",
+        "iso3": "aut"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005275c",
+        "name": "Andorra",
+        "code": "ad",
+        "iso3": "and"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005277b",
+        "name": "Morocco",
+        "code": "ma",
+        "iso3": "mar"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#dc143c"
+        ],
+        "_id": "5e6ab817bf8a7240d005277f",
+        "name": "Poland",
+        "code": "pl",
+        "iso3": "pol"
+    },
+    {
+        "flagColors": [
+            "#ffffff",
+            "#003580"
+        ],
+        "_id": "5e6ab817bf8a7240d005276a",
+        "name": "Finland",
+        "code": "fi",
+        "iso3": "fin"
+    },
+    {
+        "flagColors": [
+            "#008c45",
+            "#ffffff",
+            "#cd212a"
+        ],
+        "_id": "5e6ab817bf8a7240d0052773",
+        "name": "Italy",
+        "code": "it",
+        "iso3": "ita"
+    },
+    {
+        "flagColors": [
+            "#c8102e",
+            "#ffffff",
+            "#003087"
+        ],
+        "_id": "5e6ab817bf8a7240d005277e",
+        "name": "Norway",
+        "code": "no",
+        "iso3": "nor"
+    },
+    {
+        "flagColors": [
+            "#d20000",
+            "#ffe600"
+        ],
+        "_id": "5e6ab817bf8a7240d005277d",
+        "name": "North Macedonia",
+        "code": "mk",
+        "iso3": "mkd"
+    },
+    {
+        "flagColors": [
+            "#169b62",
+            "#ffffff",
+            "#ff883e"
+        ],
+        "_id": "5e6ab817bf8a7240d0052771",
+        "name": "Ireland",
+        "code": "ie",
+        "iso3": "irl"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d0052786",
+        "name": "Slovakia",
+        "code": "sk",
+        "iso3": "svk"
+    },
+    {
+        "flagColors": [
+            "#d90012",
+            "#0033a0",
+            "#f2a800"
+        ],
+        "_id": "5e6ab817bf8a7240d005275d",
+        "name": "Armenia",
+        "code": "am",
+        "iso3": "arm"
+    },
+    {
+        "flagColors": [
+            "#11457e",
+            "#ffffff",
+            "#d7141a"
+        ],
+        "_id": "5e6ab817bf8a7240d0052767",
+        "name": "Czech Republic",
+        "code": "cz",
+        "iso3": "cze"
+    },
+    {
+        "flagColors": [
+            "#02529c",
+            "#ffffff",
+            "#dc1e35"
+        ],
+        "_id": "5e6ab817bf8a7240d0052770",
+        "name": "Iceland",
+        "code": "is",
+        "iso3": "isl"
+    },
+    {
+        "flagColors": [
+            "#fdb913",
+            "#006a44",
+            "#c1272d"
+        ],
+        "_id": "5e6ab817bf8a7240d0052775",
+        "name": "Lithuania",
+        "code": "lt",
+        "iso3": "ltu"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d0052785",
+        "name": "Serbia and Montenegro",
+        "code": "cs",
+        "iso3": "scg"
+    },
+    {
+        "flagColors": [
+            "#c7042d",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052768",
+        "name": "Denmark",
+        "code": "dk",
+        "iso3": "dnm"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d0052776",
+        "name": "Luxembourg",
+        "code": "lu",
+        "iso3": "lux"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d005277a",
+        "name": "Montenegro",
+        "code": "me",
+        "iso3": "mne"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e6ab817bf8a7240d0052779",
+        "name": "Monaco",
+        "code": "mc",
+        "iso3": "mco"
+    },
+    {
+        "flagColors": [
+            "#ae1c28",
+            "#ffffff",
+            "#21468b"
+        ],
+        "_id": "5e6ab817bf8a7240d005277c",
+        "id": 40,
+        "name": "Netherlands",
+        "code": "nl",
+        "iso3": "nld"
+    },
+    {
+        "flagColors": [
+            "#00b5e2",
+            "#fdda24",
+            "#ef3340"
+        ],
+        "_id": "5e6ab817bf8a7240d0052762",
+        "name": "Belgium",
+        "code": "be",
+        "iso3": "bel"
+    },
+    {
+        "flagColors": [
+            "#0072ce",
+            "#000000",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052769",
+        "name": "Estonia",
+        "code": "ee",
+        "iso3": "est"
+    },
+    {
+        "flagColors": [
+            "#9e3039",
+            "#ffffff"
+        ],
+        "_id": "5e6ab817bf8a7240d0052774",
+        "name": "Latvia",
+        "code": "lv",
+        "iso3": "lva"
+    },
+    {
+        "flagColors": [
+            "#0050a4",
+            "#ffffff",
+            "#ef4135"
+        ],
+        "_id": "5e6ab817bf8a7240d005276b",
+        "name": "France",
+        "code": "fr",
+        "iso3": "fra"
+    },
+    {
+        "flagColors": [
+            "#ff0000",
+            "#ffffff",
+            "#171796"
+        ],
+        "_id": "5e6ab817bf8a7240d0052765",
+        "name": "Croatia",
+        "code": "hr",
+        "iso3": "hrv"
+    },
+    {
+        "flagColors": [
+            "#0046ae",
+            "#ffd200",
+            "#cc092f"
+        ],
+        "_id": "5e6ab817bf8a7240d0052778",
+        "name": "Moldova",
+        "code": "md",
+        "iso3": "mda"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e7fae1d4bc9033b9084f17b",
+        "name": "Kazakhstan",
+        "code": "kz",
+        "iso3": "kaz"
+    },
+    {
+        "flagColors": [],
+        "_id": "5e7fae774bc9033b9084f17c",
+        "name": "Wales",
+        "code": "wa"
+    },
+    {
+        "flagColors": [],
+        "_id": "5efb08df619aeb3ae3aaa8af",
+        "name": "Liechtenstein",
+        "code": "li",
+        "iso3": "lie"
+    },
+    {
+        "flagColors": [],
+        "_id": "5efb0929619aeb3ae3aaa8b0",
+        "name": "Lebanon",
+        "code": "lb",
+        "iso3": "lbn"
+    }
+]
