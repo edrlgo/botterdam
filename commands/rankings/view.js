@@ -14,7 +14,14 @@ module.exports = class ViewCommand extends Command {
 			aliases: [],
 			group: 'rankings',
 			memberName: 'rankings',
-			description: 'View your ranking of 2021.'
+			description: 'View your ranking of 2021.',
+			args: [{
+				key: 'code',
+				prompt: 'Contest code',
+				type: 'string',
+				default: '2021',
+				oneOf: ['2021', '2020']
+			}]
 		});
 	}
 
@@ -22,14 +29,14 @@ module.exports = class ViewCommand extends Command {
 		return await resolveImage(`./img/4x3/${code}.svg`);
 	}
 
-    async run(message) {
+    async run(message, { code }) {
 		console.log(`Image generating requested by ${message.author.tag}`);
 		const msg = await message.say(`*Generating image for **${message.author.tag}**, please wait...*`);
 
 		const userId = message.author.id;
 		let ranking;
 
-		await fetch(`${process.env.ENDPOINT}/ranking/${userId}/2021`)
+		await fetch(`${process.env.ENDPOINT}/ranking/${userId}/${code}`)
 			.then(res => res.json())
 			.then(result => {
 				if (!result) return;
@@ -42,7 +49,8 @@ module.exports = class ViewCommand extends Command {
 			});
 
 		if (!ranking) {
-			return await message.say("Couldn't fetch your ranking! Are you sure you have made a ranking?");
+			await message.reply("couldn't fetch your ranking! Are you sure you have made a ranking?");
+			return await msg.delete();
 		}
 
 		const divide = ranking.length % 3 === 0 ? ranking.length / 3 : Math.ceil(ranking.length / 3);
@@ -53,7 +61,9 @@ module.exports = class ViewCommand extends Command {
 						.printImage(background, 0, 0, 1280, 720)
 						.setColor('#FFFFFF')
 						.setTextFont('32pt Metropolis')
-						.printText(`Ranking of ${message.author.tag}`, 32, 64);
+						.printText(`Ranking of ${message.author.tag}`, 32, 48)
+						.setTextFont('20pt Metropolis')
+						.printText(`Eurovision Song Contest ${code}`, 32, 80);
 		
 		const [boxWidth, boxHeight] = [384, 32];
 
