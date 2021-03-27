@@ -67,7 +67,7 @@ module.exports = class JuryCommand extends Command {
 			picture = await resolveImage(`./img/jury/jury_${code}.png`);
 		}
 		catch {
-			picture = await resolveImage('./img/jury/jury_se.png');
+			picture = await resolveImage('./img/jury/default.png');
 		}
 
 		const colors = await this.getColors(code);
