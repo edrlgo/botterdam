@@ -20,7 +20,7 @@ module.exports = class ViewCommand extends Command {
 				prompt: 'Contest code',
 				type: 'string',
 				default: '2021',
-				oneOf: ['2021', '2020']
+				validate: year => parseInt(year) >= 2010 && parseInt(year) <= 2021
 			}]
 		});
 	}
@@ -56,10 +56,13 @@ module.exports = class ViewCommand extends Command {
 		const divide = ranking.length % 3 === 0 ? ranking.length / 3 : Math.ceil(ranking.length / 3);
 		let [column, row] = [0, 0];
 
-		let background = await resolveImage('./img/ranking/venue2021.jpg');
+		let background = await resolveImage(`./img/ranking/venue${code}.jpg`);
+
+		const color = code === '2013' ? '#000000' : '#FFFFFF';
+
 		let canvas = new Canvas(1280, 720)
 						.printImage(background, 0, 0, 1280, 720)
-						.setColor('#FFFFFF')
+						.setColor(color)
 						.setTextFont('32pt Metropolis')
 						.printText(`Ranking of ${message.author.tag}`, 32, 48)
 						.setTextFont('20pt Metropolis')
