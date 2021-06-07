@@ -1,0 +1,314 @@
+[
+  {
+    "country": "San Marino",
+    "total": 552,
+    "Votes": 65,
+    "average": 8.49,
+    "stdev": 1.72,
+    "heat": "sf2"
+  },
+  {
+    "country": "Malta",
+    "total": 473.5,
+    "Votes": 58,
+    "average": 8.16,
+    "stdev": 1.87,
+    "heat": "sf1"
+  },
+  {
+    "country": "Italy",
+    "total": 459.5,
+    "Votes": 57,
+    "average": 8.06,
+    "stdev": 2.7,
+    "heat": "f"
+  },
+  {
+    "country": "Iceland",
+    "total": 459.5,
+    "Votes": 58,
+    "average": 7.92,
+    "stdev": 1.88,
+    "heat": "sf2"
+  },
+  {
+    "country": "Greece",
+    "total": 449,
+    "Votes": 59,
+    "average": 7.61,
+    "stdev": 1.94,
+    "heat": "sf2"
+  },
+  {
+    "country": "France",
+    "total": 402.5,
+    "Votes": 53,
+    "average": 7.59,
+    "stdev": 2.1,
+    "heat": "f"
+  },
+  {
+    "country": "Ukraine",
+    "total": 407.5,
+    "Votes": 54,
+    "average": 7.55,
+    "stdev": 2.08,
+    "heat": "sf1"
+  },
+  {
+    "country": "Switzerland",
+    "total": 421.5,
+    "Votes": 56,
+    "average": 7.53,
+    "stdev": 2.44,
+    "heat": "sf2"
+  },
+  {
+    "country": "Ireland",
+    "total": 389.5,
+    "Votes": 53,
+    "average": 7.35,
+    "stdev": 2.16,
+    "heat": "sf1"
+  },
+  {
+    "country": "Russia",
+    "total": 447.5,
+    "Votes": 61,
+    "average": 7.34,
+    "stdev": 2.35,
+    "heat": "sf1"
+  },
+  {
+    "country": "United Kingdom",
+    "total": 423,
+    "Votes": 58,
+    "average": 7.29,
+    "stdev": 1.45,
+    "heat": "f"
+  },
+  {
+    "country": "Israel",
+    "total": 379,
+    "Votes": 52,
+    "average": 7.29,
+    "stdev": 1.77,
+    "heat": "sf1"
+  },
+  {
+    "country": "Cyprus",
+    "total": 447.5,
+    "Votes": 62,
+    "average": 7.22,
+    "stdev": 2.07,
+    "heat": "sf1"
+  },
+  {
+    "country": "Lithuania",
+    "total": 399.5,
+    "Votes": 57,
+    "average": 7.01,
+    "stdev": 2.34,
+    "heat": "sf1"
+  },
+  {
+    "country": "Romania",
+    "total": 404.5,
+    "Votes": 58,
+    "average": 6.97,
+    "stdev": 2.39,
+    "heat": "sf1"
+  },
+  {
+    "country": "Finland",
+    "total": 380,
+    "Votes": 55,
+    "average": 6.91,
+    "stdev": 2.71,
+    "heat": "sf2"
+  },
+  {
+    "country": "Belgium",
+    "total": 421,
+    "Votes": 61,
+    "average": 6.9,
+    "stdev": 2.57,
+    "heat": "sf1"
+  },
+  {
+    "country": "Czech Republic",
+    "total": 412.5,
+    "Votes": 60,
+    "average": 6.88,
+    "stdev": 2.16,
+    "heat": "sf2"
+  },
+  {
+    "country": "Azerbaijan",
+    "total": 350,
+    "Votes": 51,
+    "average": 6.86,
+    "stdev": 2.25,
+    "heat": "sf1"
+  },
+  {
+    "country": "Albania",
+    "total": 389.5,
+    "Votes": 57,
+    "average": 6.83,
+    "stdev": 1.67,
+    "heat": "sf2"
+  },
+  {
+    "country": "Moldova",
+    "total": 370.5,
+    "Votes": 55,
+    "average": 6.74,
+    "stdev": 2.68,
+    "heat": "sf2"
+  },
+  {
+    "country": "Sweden",
+    "total": 402,
+    "Votes": 60,
+    "average": 6.7,
+    "stdev": 1.97,
+    "heat": "sf1"
+  },
+  {
+    "country": "Bulgaria",
+    "total": 366.5,
+    "Votes": 55,
+    "average": 6.66,
+    "stdev": 2.57,
+    "heat": "sf2"
+  },
+  {
+    "country": "Croatia",
+    "total": 382.5,
+    "Votes": 58,
+    "average": 6.59,
+    "stdev": 2.54,
+    "heat": "sf1"
+  },
+  {
+    "country": "Australia",
+    "total": 376,
+    "Votes": 58,
+    "average": 6.48,
+    "stdev": 2.59,
+    "heat": "sf1"
+  },
+  {
+    "country": "The Netherlands",
+    "total": 381.5,
+    "Votes": 62,
+    "average": 6.15,
+    "stdev": 2.83,
+    "heat": "f"
+  },
+  {
+    "country": "Denmark",
+    "total": 317,
+    "Votes": 54,
+    "average": 5.87,
+    "stdev": 2.88,
+    "heat": "sf2"
+  },
+  {
+    "country": "Norway",
+    "total": 364,
+    "Votes": 64,
+    "average": 5.69,
+    "stdev": 2.85,
+    "heat": "sf1"
+  },
+  {
+    "country": "Serbia",
+    "total": 307,
+    "Votes": 56,
+    "average": 5.48,
+    "stdev": 2.82,
+    "heat": "sf2"
+  },
+  {
+    "country": "Latvia",
+    "total": 286.5,
+    "Votes": 53,
+    "average": 5.41,
+    "stdev": 2.21,
+    "heat": "sf2"
+  },
+  {
+    "country": "Germany",
+    "total": 282.5,
+    "Votes": 54,
+    "average": 5.23,
+    "stdev": 2.91,
+    "heat": "f"
+  },
+  {
+    "country": "Austria",
+    "total": 303,
+    "Votes": 59,
+    "average": 5.14,
+    "stdev": 2.42,
+    "heat": "sf2"
+  },
+  {
+    "country": "Estonia",
+    "total": 258,
+    "Votes": 51,
+    "average": 5.06,
+    "stdev": 2.02,
+    "heat": "sf2"
+  },
+  {
+    "country": "Slovenia",
+    "total": 257.5,
+    "Votes": 53,
+    "average": 4.86,
+    "stdev": 2.59,
+    "heat": "sf1"
+  },
+  {
+    "country": "Portugal",
+    "total": 297,
+    "Votes": 62,
+    "average": 4.79,
+    "stdev": 2.81,
+    "heat": "sf2"
+  },
+  {
+    "country": "Poland",
+    "total": 271,
+    "Votes": 57,
+    "average": 4.75,
+    "stdev": 2.37,
+    "heat": "sf2"
+  },
+  {
+    "country": "Spain",
+    "total": 265.5,
+    "Votes": 58,
+    "average": 4.58,
+    "stdev": 2.15,
+    "heat": "f"
+  },
+  {
+    "country": "Georgia",
+    "total": 221,
+    "Votes": 55,
+    "average": 4.02,
+    "stdev": 2.58,
+    "heat": "sf2"
+  },
+  {
+    "country": "North Macedonia",
+    "total": 218.5,
+    "Votes": 58,
+    "average": 3.77,
+    "stdev": 2.14,
+    "heat": "sf1"
+  }
+]
