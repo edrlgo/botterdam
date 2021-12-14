@@ -56,12 +56,18 @@ module.exports = class JuryCommand extends Command {
 		return countries.find(x => x.code === code).name;
 	}
 
+	async getCountryFlag(code) {
+		return await resolveImage(`./img/4x3/${code}.svg`);
+	}
+
     async run(message, { code, votes, avg, stdev }) {
 		const msg = await message.say('*Generating image, please wait...*');
 
 		let picture;
 
-		const background = await resolveImage('./img/jury/background.png');
+		const background = await resolveImage('./img/jury/jesc-2021-bg-2.png');
+
+		const flag = await this.getCountryFlag(code);
 
 		try {
 			picture = await resolveImage(`./img/jury/jury_${code}.png`);
@@ -70,12 +76,12 @@ module.exports = class JuryCommand extends Command {
 			picture = await resolveImage('./img/jury/default.png');
 		}
 
-		const colors = await this.getColors(code);
+		// const colors = await this.getColors(code);
 		const countryName = await this.getCountryName(code);
 
 		let songTitle, artist;
 
-		await fetch(`${process.env.ENDPOINT}/entry/2021/${code}`)
+		await fetch(`${process.env.ENDPOINT}/entry/j2021/${code}`)
 			.then(res => res.json())
 			.then(result => {
 				if (result) {
@@ -92,18 +98,19 @@ module.exports = class JuryCommand extends Command {
 		}
 
 		let canvas = new Canvas(1159, 720).printImage(background, 0, 0)
-			.printRoundedImage(picture, 660, 327, 472, 207, 53)
-			.setColor(colors[0])
-			.printRoundedRectangle(660, 100, 24, 43, 50)
-			.setColor(colors[1])
-			.printRoundedRectangle(692, 100, 24, 43, 50)
-			.setColor(colors[2])
-			.printRoundedRectangle(724, 100, 24, 43, 50)
+			.printRoundedImage(flag, 86, 128, 128, 128, 100)
+			.printRoundedImage(picture, 767, 327, 364, 207, 53)
+			// .setColor(colors[0])
+			// .printRoundedRectangle(660, 100, 24, 43, 50)
+			// .setColor(colors[1])
+			// .printRoundedRectangle(692, 100, 24, 43, 50)
+			// .setColor(colors[2])
+			// .printRoundedRectangle(724, 100, 24, 43, 50)
 			.setColor('#FFFFFF')
 			.setTextAlign('right')
 			.setTextFont('bold 36pt Metropolis')
 			.printText(countryName, 1133, 140, 380)
-			.printText(artist, 1133, 245)
+			.printText(artist, 1133, 245, 720)
 			.setTextFont('lighter 36pt Metropolis')
 			.printText(songTitle, 1133, 307)
 			.setTextFont('bold 36pt Metropolis')

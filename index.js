@@ -35,6 +35,7 @@ client.registry
 
 client.on("ready", async () => {
     console.log("Started!");
+    client.user.setPresence({ status: 'invisible' }).then(console.log).then(console.error);
 });
 
 client.login(process.env.TOKEN);
